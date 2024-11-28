@@ -1,0 +1,2 @@
+MODEL/Model_B16E20.keras filter=lfs diff=lfs merge=lfs -text
+MODEL/Model_B16E20.h5 filter=lfs diff=lfs merge=lfs -text
