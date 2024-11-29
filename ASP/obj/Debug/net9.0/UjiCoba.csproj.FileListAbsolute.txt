@@ -195,3 +195,4 @@
 /Users/macbook-air/Documents/DAGO PHKT (AIDA PHASE 3 BACKUP)/ASP/UJICOBA/ASP/obj/Debug/net9.0/UjiCoba.pdb
 /Users/macbook-air/Documents/DAGO PHKT (AIDA PHASE 3 BACKUP)/ASP/UJICOBA/ASP/obj/Debug/net9.0/UjiCoba.genruntimeconfig.cache
 /Users/macbook-air/Documents/DAGO PHKT (AIDA PHASE 3 BACKUP)/ASP/UJICOBA/ASP/obj/Debug/net9.0/ref/UjiCoba.dll
+/Users/macbook-air/Documents/DAGO PHKT (AIDA PHASE 3 BACKUP)/ASP/UJICOBA/ASP/obj/Debug/net9.0/UjiCoba.sourcelink.json
