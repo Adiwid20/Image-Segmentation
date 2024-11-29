@@ -6,11 +6,12 @@ from fastapi.responses import StreamingResponse
 from tensorflow.keras.models import load_model
 from PIL import Image
 
+# run in terminal : uvicorn app:app --reload   
 
 app = FastAPI()
 
 
-model = load_model("/Users/macbook-air/Documents/DAGO PHKT (AIDA PHASE 3 BACKUP)/ASP/UJICOBA/MODEL/Model_B16E20.h5")
+model = load_model("//Users/macbook-air/M2/DAGO PHKT (AIDA PHASE 3 BACKUP)/ASP/UJICOBA/MODEL/Model_B16E20.keras")
 
 def process_image(file):
     img_array = np.array(Image.open(io.BytesIO(file)))  # Convert image to numpy array

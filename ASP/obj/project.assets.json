@@ -60,11 +60,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/macbook-air/Documents/DAGO PHKT (AIDA PHASE 3 BACKUP)/ASP/UJICOBA/ASP/UjiCoba.csproj",
+      "projectUniqueName": "/Users/macbook-air/M2/DAGO PHKT (AIDA PHASE 3 BACKUP)/ASP/UJICOBA/ASP/UjiCoba.csproj",
       "projectName": "UjiCoba",
-      "projectPath": "/Users/macbook-air/Documents/DAGO PHKT (AIDA PHASE 3 BACKUP)/ASP/UJICOBA/ASP/UjiCoba.csproj",
+      "projectPath": "/Users/macbook-air/M2/DAGO PHKT (AIDA PHASE 3 BACKUP)/ASP/UJICOBA/ASP/UjiCoba.csproj",
       "packagesPath": "/Users/macbook-air/.nuget/packages/",
-      "outputPath": "/Users/macbook-air/Documents/DAGO PHKT (AIDA PHASE 3 BACKUP)/ASP/UJICOBA/ASP/obj/",
+      "outputPath": "/Users/macbook-air/M2/DAGO PHKT (AIDA PHASE 3 BACKUP)/ASP/UJICOBA/ASP/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/macbook-air/.nuget/NuGet/NuGet.Config"
