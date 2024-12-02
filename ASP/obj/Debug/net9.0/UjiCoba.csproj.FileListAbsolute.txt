@@ -400,8 +400,8 @@
 /Users/macbook-air/Library/Mobile Documents/com~apple~CloudDocs/DAGO/AIDA FASE 3/DAGO PHKT (AIDA PHASE 3 BACKUP)/ASP/UJICOBA/ASP/obj/Debug/net9.0/ref/UjiCoba.dll
 /Users/macbook-air/M2/DAGO PHKT (AIDA PHASE 3 BACKUP)/ASP/UJICOBA/ASP/bin/Debug/net9.0/appsettings.Development.json
 /Users/macbook-air/M2/DAGO PHKT (AIDA PHASE 3 BACKUP)/ASP/UJICOBA/ASP/bin/Debug/net9.0/appsettings.json
-/Users/macbook-air/M2/DAGO PHKT (AIDA PHASE 3 BACKUP)/ASP/UJICOBA/ASP/bin/Debug/net9.0/UjiCoba.staticwebassets.endpoints.json
 /Users/macbook-air/M2/DAGO PHKT (AIDA PHASE 3 BACKUP)/ASP/UJICOBA/ASP/bin/Debug/net9.0/UjiCoba.staticwebassets.runtime.json
+/Users/macbook-air/M2/DAGO PHKT (AIDA PHASE 3 BACKUP)/ASP/UJICOBA/ASP/bin/Debug/net9.0/UjiCoba.staticwebassets.endpoints.json
 /Users/macbook-air/M2/DAGO PHKT (AIDA PHASE 3 BACKUP)/ASP/UJICOBA/ASP/bin/Debug/net9.0/UjiCoba
 /Users/macbook-air/M2/DAGO PHKT (AIDA PHASE 3 BACKUP)/ASP/UJICOBA/ASP/bin/Debug/net9.0/UjiCoba.deps.json
 /Users/macbook-air/M2/DAGO PHKT (AIDA PHASE 3 BACKUP)/ASP/UJICOBA/ASP/bin/Debug/net9.0/UjiCoba.runtimeconfig.json
@@ -482,6 +482,8 @@
 /Users/macbook-air/M2/DAGO PHKT (AIDA PHASE 3 BACKUP)/ASP/UJICOBA/ASP/obj/Debug/net9.0/compressed/rynogmchop-muycvpuwrr.gz
 /Users/macbook-air/M2/DAGO PHKT (AIDA PHASE 3 BACKUP)/ASP/UJICOBA/ASP/obj/Debug/net9.0/compressed/tjycjrpki4-87fc7y1x7t.gz
 /Users/macbook-air/M2/DAGO PHKT (AIDA PHASE 3 BACKUP)/ASP/UJICOBA/ASP/obj/Debug/net9.0/compressed/i2g302kuyx-mlv21k5csn.gz
+/Users/macbook-air/M2/DAGO PHKT (AIDA PHASE 3 BACKUP)/ASP/UJICOBA/ASP/obj/Debug/net9.0/compressed/r5lxuh0zhf-ruq35tolgz.gz
+/Users/macbook-air/M2/DAGO PHKT (AIDA PHASE 3 BACKUP)/ASP/UJICOBA/ASP/obj/Debug/net9.0/compressed/cg5atf22nb-ruq35tolgz.gz
 /Users/macbook-air/M2/DAGO PHKT (AIDA PHASE 3 BACKUP)/ASP/UJICOBA/ASP/obj/Debug/net9.0/staticwebassets.build.json
 /Users/macbook-air/M2/DAGO PHKT (AIDA PHASE 3 BACKUP)/ASP/UJICOBA/ASP/obj/Debug/net9.0/staticwebassets.development.json
 /Users/macbook-air/M2/DAGO PHKT (AIDA PHASE 3 BACKUP)/ASP/UJICOBA/ASP/obj/Debug/net9.0/staticwebassets.build.endpoints.json
@@ -497,5 +499,3 @@
 /Users/macbook-air/M2/DAGO PHKT (AIDA PHASE 3 BACKUP)/ASP/UJICOBA/ASP/obj/Debug/net9.0/UjiCoba.pdb
 /Users/macbook-air/M2/DAGO PHKT (AIDA PHASE 3 BACKUP)/ASP/UJICOBA/ASP/obj/Debug/net9.0/UjiCoba.genruntimeconfig.cache
 /Users/macbook-air/M2/DAGO PHKT (AIDA PHASE 3 BACKUP)/ASP/UJICOBA/ASP/obj/Debug/net9.0/ref/UjiCoba.dll
-/Users/macbook-air/M2/DAGO PHKT (AIDA PHASE 3 BACKUP)/ASP/UJICOBA/ASP/obj/Debug/net9.0/compressed/r5lxuh0zhf-ruq35tolgz.gz
-/Users/macbook-air/M2/DAGO PHKT (AIDA PHASE 3 BACKUP)/ASP/UJICOBA/ASP/obj/Debug/net9.0/compressed/cg5atf22nb-ruq35tolgz.gz

@@ -1,5 +1,5 @@
 @{
-    var imageBase64 = ViewBag.SegmentationResult as string;
+    var imageBase64List = ViewBag.SegmentationResults as List<string>;
 }
 
 <!DOCTYPE html>
@@ -7,115 +7,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Segmented Image Result</title>
+    <title>Hasil Segmentasi Gambar</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <style>
-        /* Basic Reset */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        /* Body Styling */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f7fc;
-            color: #333;
-            padding: 20px;
-        }
-
-        /* Container for the content */
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        /* Title */
-        h1 {
-            text-align: center;
-            color: #0056b3;
-            margin-bottom: 20px;
-        }
-
-        /* Image Styling */
-        .segmented-image {
-            display: block;
-            margin: 20px auto;
-            max-width: 100%;
-            border: 5px solid #ddd;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        /* Message Styling */
-        .message {
-            text-align: center;
-            font-size: 1.2em;
-            color: #ff6347;
-        }
-
-        /* Add a button for retry or other actions */
-        .action-button {
-            display: block;
-            width: 200px;
-            margin: 30px auto;
-            padding: 10px 20px;
-            text-align: center;
-            background-color: #0056b3;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            font-size: 1.1em;
-            cursor: pointer;
-            text-decoration: none;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        .action-button:hover {
-            background-color: #0056b3;
-            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
-        }
-
-        /* Animasi untuk gambar saat hover */
-        .segmented-image:hover {
-            transform: scale(1.05);
-            transition: transform 0.3s ease;
-        }
-
-        /* Card untuk hasil segmentasi */
-        .card {
-            transition: transform 0.3s ease-in-out;
-        }
-
-        .card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
-
-    </style>
 </head>
 <body>
 
-<div class="container">
-    <h1>Hasil Segmentasi Gambar</h1>
+<div class="container mt-5">
+    <h1 class="text-center">Hasil Segmentasi Gambar</h1>
 
-    <div class="card shadow-lg p-4 rounded-4">
-        @if (!string.IsNullOrEmpty(imageBase64))
-        {
-            <img src="data:image/png;base64,@imageBase64" class="segmented-image" alt="Segmented Image" />
-        }
-        else
-        {
-            <p class="message">Hasil segmentasi tidak ditemukan.</p>
-        }
+    @if (imageBase64List != null && imageBase64List.Any())
+    {
+        <div class="row mt-4">
+            @foreach (var imageBase64 in imageBase64List)
+            {
+                <div class="col-md-6 col-lg-4">
+                    <div class="card shadow-lg p-3 mb-4 rounded-4">
+                        <img src="@imageBase64" class="img-fluid rounded" alt="Segmented Image" />
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <p class="text-danger text-center mt-4">Hasil segmentasi tidak ditemukan.</p>
+    }
+
+    <div class="text-center mt-4">
+        <a href="@Url.Action("Index", "Home")" class="btn btn-primary">Kembali ke Halaman Utama</a>
     </div>
-
-    <a href="@Url.Action("Index", "Home")" class="action-button">Kembali ke Halaman Utama</a>
 </div>
 
 </body>

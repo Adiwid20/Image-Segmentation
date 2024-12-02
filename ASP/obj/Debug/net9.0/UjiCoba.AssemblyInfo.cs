@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UjiCoba")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5340a3881e171088cab5a4e9238a509598463143")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d71d3052b648d7c0ab7c5dc1698318ff2dee1afa")]
 [assembly: System.Reflection.AssemblyProductAttribute("UjiCoba")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UjiCoba")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
